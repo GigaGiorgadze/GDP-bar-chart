@@ -1,0 +1,38 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #00a8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+svg{
+    background-color: #f5f6fa;
+    box-shadow: 0px 3px 15px rgba(0, 0,0, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+}
+.bar{
+    background-color: #1e90ff;
+    border-color: #1e90ff;
+    fill: #1e90ff;
+}
+.bar:hover{
+    fill: #17252a;
+}
+g{
+    color: #17252a;
+}
+#tooltip{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 28px;
+}
+#title{
+    font-size: 30px;
+    fill: #17252a;
+}
